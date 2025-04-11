@@ -37,9 +37,9 @@
             color: #3366cc;
         }
         .columna h3 {
-            font-size: 0.9em;
+            font-size: 1.0em;
             margin-bottom: 10px;
-            color: #B0E0E6;
+            color: #3366cc;
         }
         .columna p, .columna li {
             font-size: 1em;
@@ -48,57 +48,76 @@
         ul {
             padding-left: 20px;
         }
+        .boton {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #3366cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .boton:hover {
+            background-color: #264d99;
+        }
     </style>
 </head>
 <body>
-    
-<div class="titulo">Reacción Adversa</div>
+
+<div class="titulo">Reacción adversa</div>
 
 <div class="contenedor">
+
     <div class="columna">
         <h2>Procedimiento en Tiendas Físicas</h2>
         <ul>
-            <li> <b>Recepción del caso:</b> Verificación de compra y solicitud de evidencias.</li>
-            <li> <b>Diligenciamiento del formato:</b> Se llena el documento y el cliente firma.</li>
-            <li> <b>Escalamiento a SAC:</b></li>
+            <li><p>Recepción del caso:</p> Verificación de compra y solicitud de evidencias.</li>
+            <li><p>Diligenciamiento del formato:</p> Se llena el documento respectivo y el cliente lo firma.</li>
+            <li><p>Escalamiento a SAC:</p> Se informa al cliente que un profesional lo contactará:</li>
             <ul>
-                <li>📅 Mismo día, si es antes de las 5 p.m.</li>
-                <li>🌙 Al día siguiente, si es después de las 5 p.m.</li>
-                <li>🛑 Lunes en la mañana si es fin de semana.</li>
+                <li>📅 Mismo día, si el caso se recibe antes de las 5 p.m.</li>
+                <li>🌙 Al día siguiente en la mañana, si llega después de las 5 p.m.</li>
+                <li>🛑 Lunes en la mañana, si se recibe durante el fin de semana</li>
             </ul>
         </ul>
     </div>
 
     <div class="columna">
-        <h2>Procedimiento en SAC (Call Center)</h2>
+        <h3>Procedimiento en SAC (Call Center)</h3>
+        <p>📥 Si el caso llega desde tiendas:</p>
         <ul>
-            <li>📥 Si el caso llega desde tiendas:</li>
-            <ul>
-                <li>Documentar y enviar correo a Augusto Hernández desde Freshdesk.</li>
-                <li>Escalar al laboratorio.</li>
-                <li>Hacer seguimiento al cliente.</li>
-            </ul>
-        
-                <h3>Si el caso llega directo de cliente:</h3>
-        
-            <ul>
-                <li>Documentar y enviar correo a Augusto Hernández.</li>
-                <li>Escalar al laboratorio correspondiente.</li>
-                <li>Revisar respuesta de formación antes de indicar al cliente.</li>
-                <li>Hacer seguimiento al cliente.</li>
-            </ul>
+            <li>Documentar y enviar correo inmediato a Augusto Hernández desde Freshdesk.</li>
+            <li>Escalar al laboratorio correspondiente.</li>
+            <li>Hacer seguimiento al cliente.</li>
+        </ul>
+
+        <p><h3>Si el caso llega directo de un cliente:</h3>
+        <ul>
+            <li>Documentar y enviar correo inmediato a Augusto Hernández.</li>
+            <li>Escalar al laboratorio correspondiente.</li>
+            <li>Revisar respuesta de formación antes de dar indicaciones al cliente.</li>
+            <li>Hacer seguimiento al cliente.</li>
         </ul>
     </div>
 
     <div class="columna">
         <h2>Reglas Claves para la Gestión en SAC</h2>
         <ul>
-            <li> <b>Formato de Escalamiento:</b> Usar el formato establecido.</li>
-            <li> <b>Filtro de Información:</b> Verificar información recibida de tienda antes de escalar.</li>
-            <li> <b>Casos a Escalar a Formación:</b> Solo reacciones adversas.</li>
-            <li> <b>Etiqueta en Correos:</b> Mencionar correctamente el caso.</li>
+            <li>🔹 <strong>Formato de Escalamiento:</strong> Se usará el formato establecido, haz clic a continuación para ver la plantilla:</li>
+        </ul>
+
+        <!-- Aquí va el botón -->
+        <a class="boton" href="https://medipiel365.sharepoint.com/:w:/r/sites/SAC/_layouts/15/Doc.aspx?sourcedoc=%7B2CFD57DD-5747-433B-A55A-72E9DE427C0A%7D&file=Plantilla%20reacci%C3%B3n%20adversa%20o%20Reaccion%20Adversa%20por%20Asesoria.docx&action=default&mobileredirect=true&web=1" target="_blank">Plantilla correo</a>
+
+        <ul>
+            <li>🔹 <strong>Filtro de Información:</strong> Verificar que la información recibida de tienda sea correcta antes de escalar.</li>
+            <li>🔹 <strong>Casos a Escalar a Formación:</strong> Solo reacciones adversas (picazón, quemadura, salpullido, afectaciones en la piel).</li>
+            <li>🔹 <strong>Etiqueta en Correos:</strong> Mencionar explícitamente a @Augusto Hernández en el correo para priorizar la gestión.</li>
         </ul>
     </div>
+
 </div>
 
 </body>

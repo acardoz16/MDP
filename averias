@@ -160,7 +160,7 @@
                 <li><span class="important">Rotular correctamente</span> el paquete con los datos de devolución:
                     <ul>
                         <li>Nombre, cédula, teléfono de contacto.</li>
-                        <li>Adicional debe tener los datos de Medipiel:
+                        <li>Adicional debe tener los datos de Medipiel
                             <ul>
                                 <li><span class="data-label">Nit:</span> 811041214-7</li>
                                 <li><span class="data-label">Dirección:</span> calle 16 # 55-129 4to piso en Medellín.</li>
